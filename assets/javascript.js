@@ -3,8 +3,10 @@ let seg = 0, min = 0, mil = 0, cro2, cro, tempo;
 
 
 function iniciar(){
-    document.getElementById("iniciar").disabled = true; 
+    document.getElementById("iniciar").disabled = true;
     document.getElementById("parar").disabled = false; 
+    
+    
     tempo = setInterval(() =>{
         cronometro()
     }, 10)
@@ -67,10 +69,11 @@ function list(){
     lista = lista + "<li>" + t + "</li>";
     
     document.getElementById('lista').innerHTML = lista;
-    }
 
-    function apagarlist(){
-     var lis =  "<li>"+'Listagem de tempo'+"</li>";
+}
 
-        document.getElementById('lista').innerHTML = lis;
-    }
+function apagarlist(){
+    var lis =  "<li>"+'Listagem de tempo'+"</li>";
+
+    document.getElementById('lista').innerHTML = lis;
+}

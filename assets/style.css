@@ -10,6 +10,8 @@ body {
 .corpo{
 width: 50%;
 background-color: rgb(114, 113, 113);
+min-width: 400px;
+
 
 }
 
@@ -27,23 +29,28 @@ background-color: rgb(114, 113, 113);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 150px;
+    min-width: 150px;
 
 }
 .btn{
     border-style: none;
     font-style: unset;
     height: 50px;
-    margin-left: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     width: 120px;
 
 }
 
+.zerar{
+    background-color: aqua;
+}
 .iniciar{
     background-color: rgb(83, 179, 83);
 }
 
-.zerar{
+.marcar{
     background-color: honeydew;
 }
 
@@ -101,9 +108,10 @@ input:focus {
 
 .btn-reiniciar{
     display: flex;
-   justify-content: center;
-   align-items: center;
- width: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 15px;
 }
 
 .apagar{

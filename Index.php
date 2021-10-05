@@ -35,9 +35,10 @@
     <div class="button">
 
    <Button class="btn iniciar" id="iniciar" onclick="iniciar()">Iniciar</Button> 
-   <Button class="btn parar" id="parar" onclick="parar()">Parar</Button> 
-   <Button class="btn zerar" onclick="list()">Marcar volta</Button>
+   <Button class="btn parar" disabled id="parar" onclick="parar()">Parar</Button> 
+   <Button class="btn Marcar"  onclick="list()">Marcar volta</Button>
    <Button class="btn reiniciar" onclick="reiniciar(), iniciar()">Reiniciar</Button>
+   <Button class="btn zerar" onclick="zerar()">Zerar</Button>
 
     </div>
 
